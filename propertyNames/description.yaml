@@ -1,3 +1,6 @@
-owner: <your name>
-email: <your google email address>
-description: describe your name
+creator: https://teams.googleplex.com/u/mnally
+email: mnally@google.com
+description: >
+  The description property is used to hold a natural-language description of a resource. Descriptions are intended to be relatively
+  short — usually one or two lines. Descriptions are often displayed in user interfaces that are displaying lists
+  of resources where only one of two lines can be dedicated to each item. There are no restrictions on the characters that may be in a description.

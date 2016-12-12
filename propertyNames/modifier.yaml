@@ -1,3 +1,6 @@
-owner: <your name>
-email: <your google email address>
-description: describe your name
+creator: https://teams.googleplex.com/u/mnally
+email: mnally@google.com
+description: >
+  An URL that identifies the user that last modified the current resource. Ideally this would be an URL issued by some Identity Provider.
+  I was not able to figure out if there is such an URL for my Google user ID — The URL used above is the best I have come up
+  with so far.  

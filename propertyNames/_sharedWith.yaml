@@ -1,3 +1,7 @@
-owner: <your name>
-email: <your google email address>
-description: describe your name
+creator: https://teams.googleplex.com/u/mnally
+email: mnally@google.com
+description: >
+  Any resource under the control of the permissions service can be shared with specified users or teams.
+  In some APIs implemented by the permissions service, information about which teams and users a resource
+  is shared with is included amongst the properties of that resource. The _sharedwith property is used
+  to hold this information.

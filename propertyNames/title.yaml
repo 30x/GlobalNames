@@ -1,0 +1,11 @@
+creator: https://teams.googleplex.com/u/mnally
+email: mnally@google.com
+description: >
+  Titles are similar to names, but without any restrictions on characters. Titles generally have the following properties:
+  * They can be changed - they are not immutable
+  * They are unique within some scope. For example, files within a folder, or departments within a company cannot have the same title
+
+  If the property you are defining is immutable, you may want the identity (id) property or the self, not the name property.
+  If the property you are defining does not have any uniqueness constraints, you may want the label property or the title property.
+  If the property you are defining has any character constraints, you may want the title property.
+  

@@ -1,3 +1,8 @@
-owner: <your name>
-email: <your google email address>
-description: describe your name
+creator: https://teams.googleplex.com/u/mnally
+email: manlly@google.com
+description: >
+  Each resource that is governed by he permissions service may have 'permissions heirs'.
+  Permissions heirs are resources that inherit permissions from another resource.
+  '_permissionsHeirs' is thus an implicit relationship of every resource governed by the 
+  permissions service. Some resources make this relationship explicit by including a 
+  _permissionsHeirs property in their representation.
