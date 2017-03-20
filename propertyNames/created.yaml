@@ -1,4 +1,9 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/created.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/creator.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/modifier.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/modified.yaml
 description: >
   The date and time that the resource was created. Format should be XML Schema dateTime, which is a subset of
   ISO 8601

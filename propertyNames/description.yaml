@@ -1,5 +1,12 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/description.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/label.yaml
 description: >
   The description property is used to hold a natural-language description of a resource. Descriptions are intended to be relatively
   short — usually one or two lines. Descriptions are often displayed in user interfaces that are displaying lists
   of resources where only one of two lines can be dedicated to each item. There are no restrictions on the characters that may be in a description.
+multiplicity: 0:1
+mutability: readWrite

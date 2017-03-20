@@ -1,4 +1,10 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/self.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/label.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/description.yaml
 description: >
   Titles are similar to names, but without any restrictions on characters. Titles generally have the following properties:
   * They can be changed - they are not immutable
@@ -8,5 +14,6 @@ description: >
   If the property you are defining has any uniqueness constraints, you may want the name property.
   If the property you are defining has any character constraints, you may want the name property.
   If the property you are defining has multiple values, you may want the label property.
-
+multiplicity: 1
+mutability: readWrite
   

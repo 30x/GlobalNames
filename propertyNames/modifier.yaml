@@ -1,5 +1,12 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/modifier.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/created.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/creator.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/modified.yaml
 description: >
   An URL that identifies the user that last modified the current resource. Ideally this would be an URL issued by some Identity Provider.
   I was not able to figure out if there is such an URL for my Google user ID — The URL used above is the best I have come up
   with so far.  
+multiplicity: 1
+mutability: readOnly  

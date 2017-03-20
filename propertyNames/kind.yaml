@@ -1,0 +1,8 @@
+creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/kind.yaml
+seeAlso: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/isA.yaml
+description: >
+  The kind property specifies the primary, immutable type of the entity.
+multiplicity: 0:1
+mutability: writeOnce
+  

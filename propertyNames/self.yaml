@@ -1,2 +1,8 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/self.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/id.yaml
 description: self is the preferred property for expressing identity. Its value is a URI. the most useful for of URI is the HTTP URL.
+multiplicity: 1
+mutability: readOnly

@@ -1,9 +1,14 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/label.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/descriotion.yaml
 description: >
   Labels are string values used primarily for searching and grouping. In general, labels have the following properties:
   * They can be changed
   * They are not unique
   * There are some restrictions on characters. Often, whitespace is forbidden
-
-  See title, name and description for related concepts.
-  
+  * There are some restrictions on characters. Often, whitespace is forbidden
+multiplicity: 0:n
+mutability: readWrite

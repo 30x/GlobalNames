@@ -1,4 +1,9 @@
 creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
+seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/label.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/descriotion.yaml
 description: >
   Name is one of the more subtle concepts. Names generally have the following properties:
   * They can be changed - they are not immutable
@@ -8,4 +13,5 @@ description: >
   If the property you are defining is immutable, you may want the identity (id) property or the self, not the name property.
   If the property you are defining does not have any uniqueness constraints, you may want the label property or the title property.
   If the property you are defining does not have any character constraints, you may want the title property.
-  
+multiplicity: 1
+mutability: readWrite  

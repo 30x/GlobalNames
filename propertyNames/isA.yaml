@@ -1,0 +1,10 @@
+creator: https://teams.googleplex.com/u/mnally
+self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/isA.yaml
+seeAlso: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/kind.yaml
+description: >
+  The isA property specifies the types of the entity. If this property and the kind property are both present, 
+  the current value of 'kind' should be amongst the values of 'isA'. the value of 'kind' is immutable, while
+  the value of isA is variable. 
+multiplicity: 0:n
+mutability: readWrite
+  
