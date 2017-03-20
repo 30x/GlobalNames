@@ -7,3 +7,5 @@ seeAlso:
 description: >
   The date and time that the resource was created. Format should be XML Schema dateTime, which is a subset of
   ISO 8601
+multiplicity: 1
+mutability: readOnly
