@@ -1,5 +1,4 @@
 creator: https://teams.googleplex.com/u/mnally
-email: mnally@google.com
 description: >
   The date and time that the resource was created. Format should be XML Schema dateTime, which is a subset of
   ISO 8601

@@ -1,11 +1,11 @@
 creator: https://teams.googleplex.com/u/mnally
-email: mnally@gmail.com
+self:
 description: >
   An id, or identity, has the following characteristics:
 
   * It is immutable
-  * It is globally unique. The simplest ids are globally unique — no two entities can ever have the same ID. It is also possible to have IDs that are unique within a scope, but only if that scope is immutable. For example, ID may be unique within entities of the same type, provided the type of an entity cannot change. In effect, it is the combination of type and ID value that form the globally-unique ID
-  * It is unique over time. That is, there is no sequnece of changes (e.g. delete and create) that could cause a different entity to acquire the ID previously associated with a different entity 
+  * It is unique. The simplest ids are globally unique — no two entities can ever have the same ID. It is also possible to have ids that are unique within a scope, but only if that scope is immutable. For example, ID may be unique within entities of the same type, provided the type of an entity cannot change. In effect, it is the combination of type and id value that form the globally-unique id
+  * It is unique over time. That is, there is no sequnece of changes (e.g. delete and create) that could cause a different entity to acquire the id previously associated with a different entity 
 
-  In general, we prefer the use of the self property to the id property. The self property is a special ID property whose value is a URL. ID is used
-  for non-URL identity values, which are genenrally less useful. Consider using self instead.
+  In general, we prefer the use of the self property to the id property. The self property is an ID property whose value is a URL/URI. ID is used
+  for non-URL identity values, which are genenrally less useful. Consider using self instead of id.
