@@ -3,7 +3,7 @@ self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/l
 seeAlso:
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
-- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/descriotion.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/description.yaml
 description: >
   Labels are string values used primarily for searching and grouping. In general, labels have the following properties:
   * They can be changed
