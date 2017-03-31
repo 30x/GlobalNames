@@ -3,6 +3,8 @@ self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/s
 seeAlso:
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/id.yaml
-description: self is the preferred property for expressing identity. Its value is a URI. the most useful for of URI is the HTTP URL.
+description: > 
+  self is the preferred property for expressing identity. Its value is a URI. The most useful form of URI is the HTTP URL. In the representation of a resource, the self property
+  contains the identity of the subject of the data. Most resources contain data about themselves, so the value of self and the URI of the resource are usually the same.
 multiplicity: 1
 mutability: readOnly

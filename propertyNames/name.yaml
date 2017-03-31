@@ -1,17 +1,25 @@
 creator: https://teams.googleplex.com/u/mnally
 self: https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
 seeAlso:
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/id.yaml
+- https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/self.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/title.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/label.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/description.yaml
 description: >
-  Name is one of the more subtle concepts. Names generally have the following properties:
-  * They can be changed - they are not immutable
-  * They are unique within some scope. For example, files within a folder, or departments within a company cannot have the same name
-  * There are some restrictions on characters. Often, whitespace is forbidden
+  Name is one of the more subtle concepts. Names are different from labels and titles because there is an expectation that a resource may be referenced using its name. When people
+  reference a resource by name, they must understand that the reference is only valid at a particular point in time
+  and in a particular context. Outside of that specific time and context a reference by name may fail, or
+  may cause mistaken identity. By contrast, a reference by id (preferebly the self pointer) is guaranteed for all time and contexts.
 
-  If the property you are defining is immutable, you may want the identity (id) property or the self, not the name property.
+  Names generally have the following properties:
+  * They can be changed - they are not immutable
+  * They may be unique within some scope. For example, files within a folder, or departments within a company cannot have the same name
+  * There may be some restrictions on characters. For example, whitespace may be forbidden
+  * It may permissible for a resource to have more than one name at a time
+
+  If the property you are defining is immutable, you may want the identity (id) property or the self property, not the name property.
   If the property you are defining does not have any uniqueness constraints, you may want the label property or the title property.
   If the property you are defining does not have any character constraints, you may want the title property.
 multiplicity: 1
-mutability: readWrite  
+mutability: read/write
