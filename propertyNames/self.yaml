@@ -4,7 +4,11 @@ seeAlso:
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/name.yaml
 - https://github.com/apigee-internal/GlobalNames/blob/master/propertyNames/id.yaml
 description: > 
-  self is the preferred property for expressing identity. Its value is a URI. The most useful form of URI is the HTTP URL. In the representation of a resource, the self property
-  contains the identity of the subject of the data. Most resources contain data about themselves, so the value of self and the URI of the resource are usually the same.
+  self is the preferred property for expressing identity. Its value is an HTTP URL. In the representation of a resource, the self property
+  contains the identity of the rersource whose property/value pairs appear in the same JSON object. Most resources contain information about themselves, so the value of self and the 
+  URI of the resource are usually the same at the outer level of JSON.
+  The self URL may be either absolute (begins with http:// or https://) or relative. If it's relative, it should be 'path-absolute' — that is, it should begin with a leading slash.
+  Absolute URLs are preferred, but relative is OK. URLs that begin with a double slash are also OK (e.g. //apigee.com/foo). Clients should be able to handle any valid URL that is
+  relative to the base implied by the representation the relative URL is found in.
 multiplicity: 1
 mutability: readOnly
